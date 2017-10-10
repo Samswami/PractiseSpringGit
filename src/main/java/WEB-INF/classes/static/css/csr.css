@@ -1,0 +1,32 @@
+
+
+#mySidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#keyz {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#decoder {
+  top: 200px;
+  background-color: #4CAF50;
+}
+
+#required{
+  color: red;
+  content: "*";
+}
